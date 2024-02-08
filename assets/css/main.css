@@ -4820,12 +4820,22 @@ a img {
     border: 0
 }
 
+ /* .down {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    font-size: 30px;
+    cursor: pointer
+}*/
+
 #particles-js {
-    background: #ed9a15;
+    /*background: #ed9a15;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #ed9a15);
+    /*background: -webkit-linear-gradient(to right, #2B32B2, #ed9a15);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #ed9a15);
+    /*background: linear-gradient(to right, #2B32B2, #ed9a15);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -4854,6 +4864,7 @@ a img {
     margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%)
+    z-index: 1;
 }
 
 .header .site-title {
@@ -4938,6 +4949,28 @@ a img {
     }
 }
 
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    max-width:100%;
+    max-height:100vh;
+    min-width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    display: block;
+    
+}
+
+#newVideo {
+    right: 0;
+    bottom: 0px;
+    max-width:100%;
+    min-width: 100%;
+    
+}
+
 .down {
     position: absolute;
     bottom: 25px;
@@ -5011,7 +5044,7 @@ a img {
     margin: 5px auto
 }
 
-#projects {
+#projects, #media {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
